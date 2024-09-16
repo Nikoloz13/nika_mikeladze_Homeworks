@@ -1,4 +1,4 @@
-import math
+from math import sqrt 
 
 a = float(input("Enter the length of side a: "))
 b = float(input("Enter the length of side b: "))
@@ -8,7 +8,7 @@ perimeter = a + b + c
 
 s = perimeter / 2
 
-area = math.sqrt(s * (s - a) * (s - b) * (s - c))
+area = sqrt(s * (s - a) * (s - b) * (s - c))
 
 perimeter_rounded = round(perimeter, 2)
 area_rounded = round(area, 2)
