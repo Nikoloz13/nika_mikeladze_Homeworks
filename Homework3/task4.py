@@ -1,6 +1,6 @@
-import random
+from random import randint
 
-color_of_card = random.randint(1, 4)
+color_of_card = randint(1, 4)
 
 if color_of_card == 1:
     color_of_card = "Club"
@@ -11,7 +11,7 @@ elif color_of_card == 3:
 else:
     color_of_card = "Spade"
 
-random_number_of_card = random.randint(1, 13)
+random_number_of_card = randint(1, 13)
 
 if random_number_of_card == 1:
     number_of_card = "Ace"
